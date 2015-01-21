@@ -1,0 +1,95 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* TaxiNow! */ = {
+		activeExec = 0;
+		executables = (
+			95CF31B911F0F37500DD1C45 /* TaxiNow! */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 95CF31B911F0F37500DD1C45 /* TaxiNow! */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TaxiNow! */;
+		codeSenseManager = 95CF31C811F0F37E00DD1C45 /* Code sense */;
+		executables = (
+			95CF31B911F0F37500DD1C45 /* TaxiNow! */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 314301253;
+			PBXWorkspaceStateSaveDate = 314301253;
+		};
+		sourceControlManager = 95CF31C711F0F37E00DD1C45 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	95CF31B911F0F37500DD1C45 /* TaxiNow! */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "TaxiNow!";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	95CF31C711F0F37E00DD1C45 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	95CF31C811F0F37E00DD1C45 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D1E41D880FFE3CD500CAEBEB /* MainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 4641}}";
+			sepNavSelRange = "{9585, 13}";
+			sepNavVisRange = "{8842, 1176}";
+		};
+	};
+	D1E41D8E0FFE3CD500CAEBEB /* MainViewController+Observing.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {908, 1404}}";
+			sepNavSelRange = "{1869, 13}";
+			sepNavVisRange = "{1086, 1186}";
+		};
+	};
+	D1E41D940FFE3CD500CAEBEB /* OrderViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 8034}}";
+			sepNavSelRange = "{17362, 23}";
+			sepNavVisRange = "{16572, 1099}";
+		};
+	};
+	D1E41D9C0FFE3CD500CAEBEB /* EditBookmarkController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1319, 891}}";
+			sepNavSelRange = "{327, 0}";
+			sepNavVisRange = "{0, 600}";
+			sepNavWindowFrame = "{{15, 4}, {1378, 1019}}";
+		};
+	};
+}

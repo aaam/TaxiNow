@@ -1,0 +1,1089 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		D139823310A580B200216317 /* PhoneNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = D139823210A580B200216317 /* PhoneNumberView.m */; };
+		D154257910A5AD9C00725BC8 /* CountryCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D154257710A5AD9C00725BC8 /* CountryCodes.plist */; };
+		D154257D10A5ADF000725BC8 /* CountryCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = D154257C10A5ADF000725BC8 /* CountryCodes.m */; };
+		D15425CE10A5B84600725BC8 /* CountrySelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15425CC10A5B84600725BC8 /* CountrySelectionViewController.m */; };
+		D15425D210A5B8CC00725BC8 /* CountrySelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15425D010A5B8CC00725BC8 /* CountrySelectionViewController.xib */; };
+		D154263010A5BDB300725BC8 /* StyledTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D154262E10A5BDB300725BC8 /* StyledTableViewController.m */; };
+		D162A1A5101C542E00C95B01 /* CustomSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D162A1A4101C542E00C95B01 /* CustomSegmentedControl.m */; };
+		D162A214101C937F00C95B01 /* PickupTimeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D162A213101C937F00C95B01 /* PickupTimeButton.m */; };
+		D162A258101C9A4700C95B01 /* BackNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D162A256101C9A4700C95B01 /* BackNavigationController.xib */; };
+		D162A26D101C9A6200C95B01 /* BackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D162A26C101C9A6200C95B01 /* BackViewController.m */; };
+		D1666E67101B02DF00B0C7C1 /* ButtonSegmentLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = D1666E57101B02DF00B0C7C1 /* ButtonSegmentLeft.png */; };
+		D1666E68101B02DF00B0C7C1 /* ButtonSegmentLeftSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = D1666E58101B02DF00B0C7C1 /* ButtonSegmentLeftSelected.png */; };
+		D1666E69101B02DF00B0C7C1 /* ButtonSegmentMiddle.png in Resources */ = {isa = PBXBuildFile; fileRef = D1666E59101B02DF00B0C7C1 /* ButtonSegmentMiddle.png */; };
+		D1666E6A101B02DF00B0C7C1 /* ButtonSegmentMiddleSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = D1666E5A101B02DF00B0C7C1 /* ButtonSegmentMiddleSelected.png */; };
+		D1666E6B101B02DF00B0C7C1 /* ButtonSegmentRight.png in Resources */ = {isa = PBXBuildFile; fileRef = D1666E5B101B02DF00B0C7C1 /* ButtonSegmentRight.png */; };
+		D1666E6C101B02DF00B0C7C1 /* ButtonSegmentRightSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = D1666E5C101B02DF00B0C7C1 /* ButtonSegmentRightSelected.png */; };
+		D1666E6D101B02DF00B0C7C1 /* CustomDownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D1666E5D101B02DF00B0C7C1 /* CustomDownArrow.png */; };
+		D1666E6E101B02DF00B0C7C1 /* LongOptionButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D1666E5E101B02DF00B0C7C1 /* LongOptionButton.png */; };
+		D1666E6F101B02DF00B0C7C1 /* MinusButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D1666E5F101B02DF00B0C7C1 /* MinusButton.png */; };
+		D1666E70101B02DF00B0C7C1 /* OptionsBg.png in Resources */ = {isa = PBXBuildFile; fileRef = D1666E60101B02DF00B0C7C1 /* OptionsBg.png */; };
+		D1666E71101B02DF00B0C7C1 /* PlusButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D1666E61101B02DF00B0C7C1 /* PlusButton.png */; };
+		D1666E72101B02DF00B0C7C1 /* ShortOptionButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D1666E62101B02DF00B0C7C1 /* ShortOptionButton.png */; };
+		D1666E73101B02DF00B0C7C1 /* SmallFlap.png in Resources */ = {isa = PBXBuildFile; fileRef = D1666E63101B02DF00B0C7C1 /* SmallFlap.png */; };
+		D1666E74101B02DF00B0C7C1 /* CustomUpArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D1666E64101B02DF00B0C7C1 /* CustomUpArrow.png */; };
+		D1666E75101B02DF00B0C7C1 /* VerticalSeparator.png in Resources */ = {isa = PBXBuildFile; fileRef = D1666E65101B02DF00B0C7C1 /* VerticalSeparator.png */; };
+		D1666E76101B02DF00B0C7C1 /* VerticalSeparatorSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = D1666E66101B02DF00B0C7C1 /* VerticalSeparatorSelected.png */; };
+		D170D04010A458CD00B03B03 /* NanoAppsLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D170D03F10A458CD00B03B03 /* NanoAppsLogo.png */; };
+		D170D04710A45B2C00B03B03 /* LegalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D170D04510A45B2C00B03B03 /* LegalViewController.xib */; };
+		D170D05310A45B4200B03B03 /* NanoAppsLogoBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = D170D05210A45B4200B03B03 /* NanoAppsLogoBlack.png */; };
+		D170D06310A45FB400B03B03 /* LegalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D170D06110A45FB400B03B03 /* LegalViewController.m */; };
+		D17413D410527AE8006A8822 /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D17413D310527AE8006A8822 /* CustomAlertView.m */; };
+		D1778E7B1034023F00C90008 /* Geocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D1778E7A1034023F00C90008 /* Geocoder.m */; };
+		D17BEA9F103C349F00B357E1 /* NSString+md5.m in Sources */ = {isa = PBXBuildFile; fileRef = D17BEA9E103C349F00B357E1 /* NSString+md5.m */; };
+		D17BEB2E103D2CDE00B357E1 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D17BEB2D103D2CDE00B357E1 /* HTTPConnection.m */; };
+		D17BEB50103D355E00B357E1 /* OrderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D17BEB4F103D355E00B357E1 /* OrderManager.m */; };
+		D18522AF1031968B00E4FA1A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D18522AE1031968B00E4FA1A /* Icon.png */; };
+		D1925D1410A46FDC008F0EF5 /* TextInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1925D1310A46FDC008F0EF5 /* TextInputCell.m */; };
+		D1983B071004A90D00FCEBEE /* AddBookmarkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1983AF51004A90D00FCEBEE /* AddBookmarkViewController.xib */; };
+		D1983B081004A90D00FCEBEE /* BookmarkNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1983AF71004A90D00FCEBEE /* BookmarkNameCell.xib */; };
+		D1983B091004A90D00FCEBEE /* BookmarksController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1983AF91004A90D00FCEBEE /* BookmarksController.xib */; };
+		D1983B0A1004A90D00FCEBEE /* CancelOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1983AFB1004A90D00FCEBEE /* CancelOrderCell.xib */; };
+		D1983B0B1004A90D00FCEBEE /* EditBookmarkController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1983AFD1004A90D00FCEBEE /* EditBookmarkController.xib */; };
+		D1983B0C1004A90D00FCEBEE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1983AFF1004A90D00FCEBEE /* MainWindow.xib */; };
+		D1983B0D1004A90D00FCEBEE /* NotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1983B011004A90D00FCEBEE /* NotesViewController.xib */; };
+		D1983B0E1004A90D00FCEBEE /* OrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1983B031004A90D00FCEBEE /* OrderViewController.xib */; };
+		D1983B0F1004A90D00FCEBEE /* PickupAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1983B051004A90D00FCEBEE /* PickupAddressCell.xib */; };
+		D19937A1104BCA4500CA4989 /* CustomDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D19937A0104BCA4500CA4989 /* CustomDatePicker.m */; };
+		D19E7BA9106008CC00A493CA /* DatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19E7BA7106008CC00A493CA /* DatePicker.xib */; };
+		D19E7C0210600E2D00A493CA /* OptionControls.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19E7C0010600E2D00A493CA /* OptionControls.xib */; };
+		D1A7A1E6104ED3B900942CDF /* 1.caf in Resources */ = {isa = PBXBuildFile; fileRef = D1A7A1E5104ED3B900942CDF /* 1.caf */; };
+		D1A7A1F9104EDEE900942CDF /* ServiceByCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7A1F8104EDEE900942CDF /* ServiceByCell.m */; };
+		D1A82C391032B00E001FD4EB /* PinMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A82C381032B00E001FD4EB /* PinMaskView.m */; };
+		D1AEF04710FA1E9B00E9AC3C /* CLLocationManager+Hack.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AEF04610FA1E9B00E9AC3C /* CLLocationManager+Hack.m */; };
+		D1AF8421108A237200F641C1 /* BackNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AF8420108A237200F641C1 /* BackNavigationController.m */; };
+		D1AF8442108A2EDA00F641C1 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AF8440108A2EDA00F641C1 /* SettingsViewController.m */; };
+		D1AF8446108A2F0100F641C1 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1AF8444108A2F0100F641C1 /* SettingsViewController.xib */; };
+		D1B274E81034010500A04A07 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B274DD1034010500A04A07 /* NSObject+SBJSON.m */; };
+		D1B274E91034010500A04A07 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B274DF1034010500A04A07 /* NSString+SBJSON.m */; };
+		D1B274EA1034010500A04A07 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B274E11034010500A04A07 /* SBJSON.m */; };
+		D1B274EB1034010500A04A07 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B274E31034010500A04A07 /* SBJsonBase.m */; };
+		D1B274EC1034010500A04A07 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B274E51034010500A04A07 /* SBJsonParser.m */; };
+		D1B274ED1034010500A04A07 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B274E71034010500A04A07 /* SBJsonWriter.m */; };
+		D1C4454110F8D543006D8B07 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C4454010F8D543006D8B07 /* CoreLocation.framework */; };
+		D1D302C41031B2430083FC2C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D1D302C31031B2430083FC2C /* Default.png */; };
+		D1E41D490FFE3CA200CAEBEB /* Bookmarks.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D330FFE3CA200CAEBEB /* Bookmarks.png */; };
+		D1E41D4A0FFE3CA200CAEBEB /* BookmarksPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D340FFE3CA200CAEBEB /* BookmarksPressed.png */; };
+		D1E41D4B0FFE3CA200CAEBEB /* Clear.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D350FFE3CA200CAEBEB /* Clear.png */; };
+		D1E41D4C0FFE3CA200CAEBEB /* ClearPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D360FFE3CA200CAEBEB /* ClearPressed.png */; };
+		D1E41D4D0FFE3CA200CAEBEB /* DeleteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D370FFE3CA200CAEBEB /* DeleteButton.png */; };
+		D1E41D4E0FFE3CA200CAEBEB /* DeleteButtonDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D380FFE3CA200CAEBEB /* DeleteButtonDisabled.png */; };
+		D1E41D4F0FFE3CA200CAEBEB /* DeleteButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D390FFE3CA200CAEBEB /* DeleteButtonPressed.png */; };
+		D1E41D500FFE3CA200CAEBEB /* FooterBg.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D3A0FFE3CA200CAEBEB /* FooterBg.png */; };
+		D1E41D510FFE3CA200CAEBEB /* Header.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D3B0FFE3CA200CAEBEB /* Header.png */; };
+		D1E41D520FFE3CA200CAEBEB /* LocateMe.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D3C0FFE3CA200CAEBEB /* LocateMe.png */; };
+		D1E41D530FFE3CA200CAEBEB /* LocateMePressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D3D0FFE3CA200CAEBEB /* LocateMePressed.png */; };
+		D1E41D540FFE3CA200CAEBEB /* Notes.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D3E0FFE3CA200CAEBEB /* Notes.png */; };
+		D1E41D560FFE3CA200CAEBEB /* Pin.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D400FFE3CA200CAEBEB /* Pin.png */; };
+		D1E41D570FFE3CA200CAEBEB /* PinAir.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D410FFE3CA200CAEBEB /* PinAir.png */; };
+		D1E41D580FFE3CA200CAEBEB /* PinShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D420FFE3CA200CAEBEB /* PinShadow.png */; };
+		D1E41D590FFE3CA200CAEBEB /* RedButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D430FFE3CA200CAEBEB /* RedButton.png */; };
+		D1E41D5A0FFE3CA200CAEBEB /* RedButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D440FFE3CA200CAEBEB /* RedButtonPressed.png */; };
+		D1E41D5D0FFE3CA200CAEBEB /* WhiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D470FFE3CA200CAEBEB /* WhiteButton.png */; };
+		D1E41D5E0FFE3CA200CAEBEB /* WhiteButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D480FFE3CA200CAEBEB /* WhiteButtonPressed.png */; };
+		D1E41D720FFE3CBB00CAEBEB /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1E41D680FFE3CBB00CAEBEB /* Defaults.plist */; };
+		D1E41DA00FFE3CD500CAEBEB /* UIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D750FFE3CD500CAEBEB /* UIFactory.m */; };
+		D1E41DA10FFE3CD500CAEBEB /* PickupLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D780FFE3CD500CAEBEB /* PickupLocation.m */; };
+		D1E41DA20FFE3CD500CAEBEB /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D7A0FFE3CD500CAEBEB /* Order.m */; };
+		D1E41DA30FFE3CD500CAEBEB /* Bookmark.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D7C0FFE3CD500CAEBEB /* Bookmark.m */; };
+		D1E41DA40FFE3CD500CAEBEB /* YellowDraggablePin.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D7F0FFE3CD500CAEBEB /* YellowDraggablePin.m */; };
+		D1E41DA50FFE3CD500CAEBEB /* PickupAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D810FFE3CD500CAEBEB /* PickupAddressCell.m */; };
+		D1E41DA60FFE3CD500CAEBEB /* BookmarkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D830FFE3CD500CAEBEB /* BookmarkCell.m */; };
+		D1E41DA70FFE3CD500CAEBEB /* BookmarkNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D850FFE3CD500CAEBEB /* BookmarkNameCell.m */; };
+		D1E41DA80FFE3CD500CAEBEB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D880FFE3CD500CAEBEB /* MainViewController.m */; };
+		D1E41DA90FFE3CD500CAEBEB /* MainViewController+Timers.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D8A0FFE3CD500CAEBEB /* MainViewController+Timers.m */; };
+		D1E41DAA0FFE3CD500CAEBEB /* MainViewController+Actions.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D8C0FFE3CD500CAEBEB /* MainViewController+Actions.m */; };
+		D1E41DAB0FFE3CD500CAEBEB /* MainViewController+Observing.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D8E0FFE3CD500CAEBEB /* MainViewController+Observing.m */; };
+		D1E41DAC0FFE3CD500CAEBEB /* NotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D910FFE3CD500CAEBEB /* NotesViewController.m */; };
+		D1E41DAD0FFE3CD500CAEBEB /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D940FFE3CD500CAEBEB /* OrderViewController.m */; };
+		D1E41DAE0FFE3CD500CAEBEB /* AddBookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D970FFE3CD500CAEBEB /* AddBookmarkViewController.m */; };
+		D1E41DAF0FFE3CD500CAEBEB /* BookmarksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D9A0FFE3CD500CAEBEB /* BookmarksViewController.m */; };
+		D1E41DB00FFE3CD500CAEBEB /* EditBookmarkController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D9D0FFE3CD500CAEBEB /* EditBookmarkController.m */; };
+		D1E41DB10FFE3CD500CAEBEB /* TaxiNow_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E41D9F0FFE3CD500CAEBEB /* TaxiNow_AppDelegate.m */; };
+		D1E41DB30FFE3D2700CAEBEB /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E41DB20FFE3D2700CAEBEB /* AddressBook.framework */; };
+		D1E41DB70FFE3D3900CAEBEB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E41DB60FFE3D3900CAEBEB /* MapKit.framework */; };
+		D1E41DBC0FFE3E5300CAEBEB /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1E41DBB0FFE3E5300CAEBEB /* Entitlements.plist */; };
+		D1F5002810623F2600D3975A /* NotesDoneButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D1F5002610623F2600D3975A /* NotesDoneButton.png */; };
+		D1F5002910623F2600D3975A /* NotesNormalButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D1F5002710623F2600D3975A /* NotesNormalButton.png */; };
+		D1FEF5E81036B27F00CD6EF4 /* NSDictionary+DeepObjectForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FEF5E71036B27F00CD6EF4 /* NSDictionary+DeepObjectForKey.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* TaxiNow!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TaxiNow!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TaxiNow__Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiNow__Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TaxiNow_-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TaxiNow_-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		D139823110A580B200216317 /* PhoneNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberView.h; sourceTree = "<group>"; };
+		D139823210A580B200216317 /* PhoneNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberView.m; sourceTree = "<group>"; };
+		D154257810A5AD9C00725BC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = en; path = en.lproj/CountryCodes.plist; sourceTree = "<group>"; };
+		D154257B10A5ADF000725BC8 /* CountryCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryCodes.h; sourceTree = "<group>"; };
+		D154257C10A5ADF000725BC8 /* CountryCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryCodes.m; sourceTree = "<group>"; };
+		D15425CB10A5B84600725BC8 /* CountrySelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountrySelectionViewController.h; sourceTree = "<group>"; };
+		D15425CC10A5B84600725BC8 /* CountrySelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountrySelectionViewController.m; sourceTree = "<group>"; };
+		D15425D110A5B8CC00725BC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CountrySelectionViewController.xib; sourceTree = "<group>"; };
+		D154262D10A5BDB300725BC8 /* StyledTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyledTableViewController.h; sourceTree = "<group>"; };
+		D154262E10A5BDB300725BC8 /* StyledTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyledTableViewController.m; sourceTree = "<group>"; };
+		D162A1A3101C542E00C95B01 /* CustomSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegmentedControl.h; sourceTree = "<group>"; };
+		D162A1A4101C542E00C95B01 /* CustomSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegmentedControl.m; sourceTree = "<group>"; };
+		D162A212101C937F00C95B01 /* PickupTimeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickupTimeButton.h; sourceTree = "<group>"; };
+		D162A213101C937F00C95B01 /* PickupTimeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickupTimeButton.m; sourceTree = "<group>"; };
+		D162A257101C9A4700C95B01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BackNavigationController.xib; sourceTree = "<group>"; };
+		D162A26B101C9A6200C95B01 /* BackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackViewController.h; sourceTree = "<group>"; };
+		D162A26C101C9A6200C95B01 /* BackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackViewController.m; sourceTree = "<group>"; };
+		D1666E57101B02DF00B0C7C1 /* ButtonSegmentLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonSegmentLeft.png; sourceTree = "<group>"; };
+		D1666E58101B02DF00B0C7C1 /* ButtonSegmentLeftSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonSegmentLeftSelected.png; sourceTree = "<group>"; };
+		D1666E59101B02DF00B0C7C1 /* ButtonSegmentMiddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonSegmentMiddle.png; sourceTree = "<group>"; };
+		D1666E5A101B02DF00B0C7C1 /* ButtonSegmentMiddleSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonSegmentMiddleSelected.png; sourceTree = "<group>"; };
+		D1666E5B101B02DF00B0C7C1 /* ButtonSegmentRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonSegmentRight.png; sourceTree = "<group>"; };
+		D1666E5C101B02DF00B0C7C1 /* ButtonSegmentRightSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonSegmentRightSelected.png; sourceTree = "<group>"; };
+		D1666E5D101B02DF00B0C7C1 /* CustomDownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomDownArrow.png; sourceTree = "<group>"; };
+		D1666E5E101B02DF00B0C7C1 /* LongOptionButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LongOptionButton.png; sourceTree = "<group>"; };
+		D1666E5F101B02DF00B0C7C1 /* MinusButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MinusButton.png; sourceTree = "<group>"; };
+		D1666E60101B02DF00B0C7C1 /* OptionsBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionsBg.png; sourceTree = "<group>"; };
+		D1666E61101B02DF00B0C7C1 /* PlusButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlusButton.png; sourceTree = "<group>"; };
+		D1666E62101B02DF00B0C7C1 /* ShortOptionButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShortOptionButton.png; sourceTree = "<group>"; };
+		D1666E63101B02DF00B0C7C1 /* SmallFlap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmallFlap.png; sourceTree = "<group>"; };
+		D1666E64101B02DF00B0C7C1 /* CustomUpArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomUpArrow.png; sourceTree = "<group>"; };
+		D1666E65101B02DF00B0C7C1 /* VerticalSeparator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VerticalSeparator.png; sourceTree = "<group>"; };
+		D1666E66101B02DF00B0C7C1 /* VerticalSeparatorSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VerticalSeparatorSelected.png; sourceTree = "<group>"; };
+		D170D03F10A458CD00B03B03 /* NanoAppsLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NanoAppsLogo.png; sourceTree = "<group>"; };
+		D170D04610A45B2C00B03B03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LegalViewController.xib; sourceTree = "<group>"; };
+		D170D05210A45B4200B03B03 /* NanoAppsLogoBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NanoAppsLogoBlack.png; sourceTree = "<group>"; };
+		D170D06010A45FB400B03B03 /* LegalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegalViewController.h; sourceTree = "<group>"; };
+		D170D06110A45FB400B03B03 /* LegalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegalViewController.m; sourceTree = "<group>"; };
+		D17413D210527AE8006A8822 /* CustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
+		D17413D310527AE8006A8822 /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
+		D1778E791034023F00C90008 /* Geocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geocoder.h; sourceTree = "<group>"; };
+		D1778E7A1034023F00C90008 /* Geocoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Geocoder.m; sourceTree = "<group>"; };
+		D17BEA9D103C349F00B357E1 /* NSString+md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+md5.h"; sourceTree = "<group>"; };
+		D17BEA9E103C349F00B357E1 /* NSString+md5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+md5.m"; sourceTree = "<group>"; };
+		D17BEB2C103D2CDE00B357E1 /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPConnection.h; sourceTree = "<group>"; };
+		D17BEB2D103D2CDE00B357E1 /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPConnection.m; sourceTree = "<group>"; };
+		D17BEB4E103D355E00B357E1 /* OrderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderManager.h; sourceTree = "<group>"; };
+		D17BEB4F103D355E00B357E1 /* OrderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderManager.m; sourceTree = "<group>"; };
+		D18522AE1031968B00E4FA1A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D1925D1210A46FDC008F0EF5 /* TextInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextInputCell.h; sourceTree = "<group>"; };
+		D1925D1310A46FDC008F0EF5 /* TextInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextInputCell.m; sourceTree = "<group>"; };
+		D1983AF61004A90D00FCEBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AddBookmarkViewController.xib; sourceTree = "<group>"; };
+		D1983AF81004A90D00FCEBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BookmarkNameCell.xib; sourceTree = "<group>"; };
+		D1983AFA1004A90D00FCEBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BookmarksController.xib; sourceTree = "<group>"; };
+		D1983AFC1004A90D00FCEBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CancelOrderCell.xib; sourceTree = "<group>"; };
+		D1983AFE1004A90D00FCEBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EditBookmarkController.xib; sourceTree = "<group>"; };
+		D1983B001004A90D00FCEBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D1983B021004A90D00FCEBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NotesViewController.xib; sourceTree = "<group>"; };
+		D1983B041004A90D00FCEBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OrderViewController.xib; sourceTree = "<group>"; };
+		D1983B061004A90D00FCEBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PickupAddressCell.xib; sourceTree = "<group>"; };
+		D199379F104BCA4500CA4989 /* CustomDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDatePicker.h; sourceTree = "<group>"; };
+		D19937A0104BCA4500CA4989 /* CustomDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDatePicker.m; sourceTree = "<group>"; };
+		D19E7BA8106008CC00A493CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DatePicker.xib; sourceTree = "<group>"; };
+		D19E7C0110600E2D00A493CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OptionControls.xib; sourceTree = "<group>"; };
+		D1A7A1E5104ED3B900942CDF /* 1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.caf; sourceTree = "<group>"; };
+		D1A7A1F7104EDEE900942CDF /* ServiceByCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceByCell.h; sourceTree = "<group>"; };
+		D1A7A1F8104EDEE900942CDF /* ServiceByCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceByCell.m; sourceTree = "<group>"; };
+		D1A82C371032B00E001FD4EB /* PinMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinMaskView.h; sourceTree = "<group>"; };
+		D1A82C381032B00E001FD4EB /* PinMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinMaskView.m; sourceTree = "<group>"; };
+		D1AEF04510FA1E9B00E9AC3C /* CLLocationManager+Hack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocationManager+Hack.h"; sourceTree = "<group>"; };
+		D1AEF04610FA1E9B00E9AC3C /* CLLocationManager+Hack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocationManager+Hack.m"; sourceTree = "<group>"; };
+		D1AF841F108A237200F641C1 /* BackNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackNavigationController.h; sourceTree = "<group>"; };
+		D1AF8420108A237200F641C1 /* BackNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackNavigationController.m; sourceTree = "<group>"; };
+		D1AF843F108A2EDA00F641C1 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		D1AF8440108A2EDA00F641C1 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		D1AF8445108A2F0100F641C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SettingsViewController.xib; sourceTree = "<group>"; };
+		D1B274DB1034010500A04A07 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		D1B274DC1034010500A04A07 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		D1B274DD1034010500A04A07 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		D1B274DE1034010500A04A07 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		D1B274DF1034010500A04A07 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		D1B274E01034010500A04A07 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		D1B274E11034010500A04A07 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		D1B274E21034010500A04A07 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		D1B274E31034010500A04A07 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		D1B274E41034010500A04A07 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		D1B274E51034010500A04A07 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		D1B274E61034010500A04A07 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		D1B274E71034010500A04A07 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		D1C4454010F8D543006D8B07 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D1D302C31031B2430083FC2C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
+		D1E41D330FFE3CA200CAEBEB /* Bookmarks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bookmarks.png; sourceTree = "<group>"; };
+		D1E41D340FFE3CA200CAEBEB /* BookmarksPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookmarksPressed.png; sourceTree = "<group>"; };
+		D1E41D350FFE3CA200CAEBEB /* Clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clear.png; sourceTree = "<group>"; };
+		D1E41D360FFE3CA200CAEBEB /* ClearPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClearPressed.png; sourceTree = "<group>"; };
+		D1E41D370FFE3CA200CAEBEB /* DeleteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeleteButton.png; sourceTree = "<group>"; };
+		D1E41D380FFE3CA200CAEBEB /* DeleteButtonDisabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeleteButtonDisabled.png; sourceTree = "<group>"; };
+		D1E41D390FFE3CA200CAEBEB /* DeleteButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeleteButtonPressed.png; sourceTree = "<group>"; };
+		D1E41D3A0FFE3CA200CAEBEB /* FooterBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FooterBg.png; sourceTree = "<group>"; };
+		D1E41D3B0FFE3CA200CAEBEB /* Header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Header.png; sourceTree = "<group>"; };
+		D1E41D3C0FFE3CA200CAEBEB /* LocateMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocateMe.png; sourceTree = "<group>"; };
+		D1E41D3D0FFE3CA200CAEBEB /* LocateMePressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocateMePressed.png; sourceTree = "<group>"; };
+		D1E41D3E0FFE3CA200CAEBEB /* Notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Notes.png; sourceTree = "<group>"; };
+		D1E41D400FFE3CA200CAEBEB /* Pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pin.png; sourceTree = "<group>"; };
+		D1E41D410FFE3CA200CAEBEB /* PinAir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PinAir.png; sourceTree = "<group>"; };
+		D1E41D420FFE3CA200CAEBEB /* PinShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PinShadow.png; sourceTree = "<group>"; };
+		D1E41D430FFE3CA200CAEBEB /* RedButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedButton.png; sourceTree = "<group>"; };
+		D1E41D440FFE3CA200CAEBEB /* RedButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedButtonPressed.png; sourceTree = "<group>"; };
+		D1E41D470FFE3CA200CAEBEB /* WhiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteButton.png; sourceTree = "<group>"; };
+		D1E41D480FFE3CA200CAEBEB /* WhiteButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteButtonPressed.png; sourceTree = "<group>"; };
+		D1E41D680FFE3CBB00CAEBEB /* Defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defaults.plist; sourceTree = "<group>"; };
+		D1E41D740FFE3CD500CAEBEB /* UIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFactory.h; sourceTree = "<group>"; };
+		D1E41D750FFE3CD500CAEBEB /* UIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFactory.m; sourceTree = "<group>"; };
+		D1E41D770FFE3CD500CAEBEB /* PickupLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickupLocation.h; sourceTree = "<group>"; };
+		D1E41D780FFE3CD500CAEBEB /* PickupLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickupLocation.m; sourceTree = "<group>"; };
+		D1E41D790FFE3CD500CAEBEB /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		D1E41D7A0FFE3CD500CAEBEB /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		D1E41D7B0FFE3CD500CAEBEB /* Bookmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bookmark.h; sourceTree = "<group>"; };
+		D1E41D7C0FFE3CD500CAEBEB /* Bookmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bookmark.m; sourceTree = "<group>"; };
+		D1E41D7E0FFE3CD500CAEBEB /* YellowDraggablePin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowDraggablePin.h; sourceTree = "<group>"; };
+		D1E41D7F0FFE3CD500CAEBEB /* YellowDraggablePin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowDraggablePin.m; sourceTree = "<group>"; };
+		D1E41D800FFE3CD500CAEBEB /* PickupAddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickupAddressCell.h; sourceTree = "<group>"; };
+		D1E41D810FFE3CD500CAEBEB /* PickupAddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickupAddressCell.m; sourceTree = "<group>"; };
+		D1E41D820FFE3CD500CAEBEB /* BookmarkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkCell.h; sourceTree = "<group>"; };
+		D1E41D830FFE3CD500CAEBEB /* BookmarkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkCell.m; sourceTree = "<group>"; };
+		D1E41D840FFE3CD500CAEBEB /* BookmarkNameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkNameCell.h; sourceTree = "<group>"; };
+		D1E41D850FFE3CD500CAEBEB /* BookmarkNameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkNameCell.m; sourceTree = "<group>"; };
+		D1E41D870FFE3CD500CAEBEB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D1E41D880FFE3CD500CAEBEB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D1E41D890FFE3CD500CAEBEB /* MainViewController+Timers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainViewController+Timers.h"; sourceTree = "<group>"; };
+		D1E41D8A0FFE3CD500CAEBEB /* MainViewController+Timers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainViewController+Timers.m"; sourceTree = "<group>"; };
+		D1E41D8B0FFE3CD500CAEBEB /* MainViewController+Actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainViewController+Actions.h"; sourceTree = "<group>"; };
+		D1E41D8C0FFE3CD500CAEBEB /* MainViewController+Actions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainViewController+Actions.m"; sourceTree = "<group>"; };
+		D1E41D8D0FFE3CD500CAEBEB /* MainViewController+Observing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainViewController+Observing.h"; sourceTree = "<group>"; };
+		D1E41D8E0FFE3CD500CAEBEB /* MainViewController+Observing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainViewController+Observing.m"; sourceTree = "<group>"; };
+		D1E41D900FFE3CD500CAEBEB /* NotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesViewController.h; sourceTree = "<group>"; };
+		D1E41D910FFE3CD500CAEBEB /* NotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesViewController.m; sourceTree = "<group>"; };
+		D1E41D930FFE3CD500CAEBEB /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		D1E41D940FFE3CD500CAEBEB /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		D1E41D960FFE3CD500CAEBEB /* AddBookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBookmarkViewController.h; sourceTree = "<group>"; };
+		D1E41D970FFE3CD500CAEBEB /* AddBookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBookmarkViewController.m; sourceTree = "<group>"; };
+		D1E41D990FFE3CD500CAEBEB /* BookmarksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarksViewController.h; sourceTree = "<group>"; };
+		D1E41D9A0FFE3CD500CAEBEB /* BookmarksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarksViewController.m; sourceTree = "<group>"; };
+		D1E41D9C0FFE3CD500CAEBEB /* EditBookmarkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditBookmarkController.h; sourceTree = "<group>"; };
+		D1E41D9D0FFE3CD500CAEBEB /* EditBookmarkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditBookmarkController.m; sourceTree = "<group>"; };
+		D1E41D9E0FFE3CD500CAEBEB /* TaxiNow_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiNow_AppDelegate.h; sourceTree = "<group>"; };
+		D1E41D9F0FFE3CD500CAEBEB /* TaxiNow_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiNow_AppDelegate.m; sourceTree = "<group>"; };
+		D1E41DB20FFE3D2700CAEBEB /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		D1E41DB40FFE3D3000CAEBEB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D1E41DB60FFE3D3900CAEBEB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D1E41DBB0FFE3E5300CAEBEB /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		D1F5002610623F2600D3975A /* NotesDoneButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotesDoneButton.png; sourceTree = "<group>"; };
+		D1F5002710623F2600D3975A /* NotesNormalButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotesNormalButton.png; sourceTree = "<group>"; };
+		D1FEF5E61036B27F00CD6EF4 /* NSDictionary+DeepObjectForKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DeepObjectForKey.h"; sourceTree = "<group>"; };
+		D1FEF5E71036B27F00CD6EF4 /* NSDictionary+DeepObjectForKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DeepObjectForKey.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				D1E41DB30FFE3D2700CAEBEB /* AddressBook.framework in Frameworks */,
+				D1E41DB70FFE3D3900CAEBEB /* MapKit.framework in Frameworks */,
+				D1C4454110F8D543006D8B07 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D1AF841B108A22FC00F641C1 /* Front */,
+				D1AF841A108A22F800F641C1 /* Back */,
+				D1B274DA1034010500A04A07 /* JSON */,
+				D1E41D9E0FFE3CD500CAEBEB /* TaxiNow_AppDelegate.h */,
+				D1E41D9F0FFE3CD500CAEBEB /* TaxiNow_AppDelegate.m */,
+				D1E41D7D0FFE3CD500CAEBEB /* Views */,
+				D1E41D760FFE3CD500CAEBEB /* Model */,
+				D1E41D730FFE3CD500CAEBEB /* Utilities */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TaxiNow!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				D1E41D320FFE3CA200CAEBEB /* Images */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				D1C4454010F8D543006D8B07 /* CoreLocation.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TaxiNow__Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D154257710A5AD9C00725BC8 /* CountryCodes.plist */,
+				D1A7A1E5104ED3B900942CDF /* 1.caf */,
+				D18522AE1031968B00E4FA1A /* Icon.png */,
+				D1983AF51004A90D00FCEBEE /* AddBookmarkViewController.xib */,
+				D1983AF71004A90D00FCEBEE /* BookmarkNameCell.xib */,
+				D1983AF91004A90D00FCEBEE /* BookmarksController.xib */,
+				D1983AFB1004A90D00FCEBEE /* CancelOrderCell.xib */,
+				D1983AFD1004A90D00FCEBEE /* EditBookmarkController.xib */,
+				D1983AFF1004A90D00FCEBEE /* MainWindow.xib */,
+				D1983B011004A90D00FCEBEE /* NotesViewController.xib */,
+				D1983B031004A90D00FCEBEE /* OrderViewController.xib */,
+				D1983B051004A90D00FCEBEE /* PickupAddressCell.xib */,
+				D162A256101C9A4700C95B01 /* BackNavigationController.xib */,
+				D19E7BA7106008CC00A493CA /* DatePicker.xib */,
+				D19E7C0010600E2D00A493CA /* OptionControls.xib */,
+				D1AF8444108A2F0100F641C1 /* SettingsViewController.xib */,
+				D170D04510A45B2C00B03B03 /* LegalViewController.xib */,
+				D15425D010A5B8CC00725BC8 /* CountrySelectionViewController.xib */,
+				D1E41D680FFE3CBB00CAEBEB /* Defaults.plist */,
+				8D1107310486CEB800E47090 /* TaxiNow_-Info.plist */,
+				D1E41DBB0FFE3E5300CAEBEB /* Entitlements.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1E41DB60FFE3D3900CAEBEB /* MapKit.framework */,
+				D1E41DB40FFE3D3000CAEBEB /* CoreLocation.framework */,
+				D1E41DB20FFE3D2700CAEBEB /* AddressBook.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D15425CA10A5B82E00725BC8 /* CountrySelectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D15425CB10A5B84600725BC8 /* CountrySelectionViewController.h */,
+				D15425CC10A5B84600725BC8 /* CountrySelectionViewController.m */,
+			);
+			name = CountrySelectionViewController;
+			sourceTree = "<group>";
+		};
+		D162A26A101C9A5300C95B01 /* BackViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D162A26B101C9A6200C95B01 /* BackViewController.h */,
+				D162A26C101C9A6200C95B01 /* BackViewController.m */,
+			);
+			name = BackViewController;
+			sourceTree = "<group>";
+		};
+		D170D05F10A45FA700B03B03 /* LegalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D170D06010A45FB400B03B03 /* LegalViewController.h */,
+				D170D06110A45FB400B03B03 /* LegalViewController.m */,
+			);
+			name = LegalViewController;
+			sourceTree = "<group>";
+		};
+		D1AF841A108A22F800F641C1 /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				D170D05F10A45FA700B03B03 /* LegalViewController */,
+				D1AF841E108A233300F641C1 /* BackNavigationController */,
+				D162A26A101C9A5300C95B01 /* BackViewController */,
+				D1AF843E108A2EB900F641C1 /* SettingsViewController */,
+			);
+			name = Back;
+			sourceTree = "<group>";
+		};
+		D1AF841B108A22FC00F641C1 /* Front */ = {
+			isa = PBXGroup;
+			children = (
+				D1E41D9B0FFE3CD500CAEBEB /* Edit Bookmark Controller */,
+				D1E41D980FFE3CD500CAEBEB /* Bookmarks View Controller */,
+				D1E41D950FFE3CD500CAEBEB /* Add Bookmark View Controller */,
+				D1E41D920FFE3CD500CAEBEB /* Order View Controller */,
+				D1E41D8F0FFE3CD500CAEBEB /* Notes View Controller */,
+				D1E41D860FFE3CD500CAEBEB /* Main View Controller */,
+			);
+			name = Front;
+			sourceTree = "<group>";
+		};
+		D1AF841E108A233300F641C1 /* BackNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				D1AF841F108A237200F641C1 /* BackNavigationController.h */,
+				D1AF8420108A237200F641C1 /* BackNavigationController.m */,
+			);
+			name = BackNavigationController;
+			sourceTree = "<group>";
+		};
+		D1AF843E108A2EB900F641C1 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D15425CA10A5B82E00725BC8 /* CountrySelectionViewController */,
+				D1AF843F108A2EDA00F641C1 /* SettingsViewController.h */,
+				D1AF8440108A2EDA00F641C1 /* SettingsViewController.m */,
+				D1925D1210A46FDC008F0EF5 /* TextInputCell.h */,
+				D1925D1310A46FDC008F0EF5 /* TextInputCell.m */,
+				D139823110A580B200216317 /* PhoneNumberView.h */,
+				D139823210A580B200216317 /* PhoneNumberView.m */,
+				D154262D10A5BDB300725BC8 /* StyledTableViewController.h */,
+				D154262E10A5BDB300725BC8 /* StyledTableViewController.m */,
+			);
+			name = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		D1B274DA1034010500A04A07 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				D1B274DB1034010500A04A07 /* JSON.h */,
+				D1B274DC1034010500A04A07 /* NSObject+SBJSON.h */,
+				D1B274DD1034010500A04A07 /* NSObject+SBJSON.m */,
+				D1B274DE1034010500A04A07 /* NSString+SBJSON.h */,
+				D1B274DF1034010500A04A07 /* NSString+SBJSON.m */,
+				D1B274E01034010500A04A07 /* SBJSON.h */,
+				D1B274E11034010500A04A07 /* SBJSON.m */,
+				D1B274E21034010500A04A07 /* SBJsonBase.h */,
+				D1B274E31034010500A04A07 /* SBJsonBase.m */,
+				D1B274E41034010500A04A07 /* SBJsonParser.h */,
+				D1B274E51034010500A04A07 /* SBJsonParser.m */,
+				D1B274E61034010500A04A07 /* SBJsonWriter.h */,
+				D1B274E71034010500A04A07 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		D1E41D320FFE3CA200CAEBEB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D170D05210A45B4200B03B03 /* NanoAppsLogoBlack.png */,
+				D170D03F10A458CD00B03B03 /* NanoAppsLogo.png */,
+				D1F5002610623F2600D3975A /* NotesDoneButton.png */,
+				D1F5002710623F2600D3975A /* NotesNormalButton.png */,
+				D1D302C31031B2430083FC2C /* Default.png */,
+				D1666E57101B02DF00B0C7C1 /* ButtonSegmentLeft.png */,
+				D1666E58101B02DF00B0C7C1 /* ButtonSegmentLeftSelected.png */,
+				D1666E59101B02DF00B0C7C1 /* ButtonSegmentMiddle.png */,
+				D1666E5A101B02DF00B0C7C1 /* ButtonSegmentMiddleSelected.png */,
+				D1666E5B101B02DF00B0C7C1 /* ButtonSegmentRight.png */,
+				D1666E5C101B02DF00B0C7C1 /* ButtonSegmentRightSelected.png */,
+				D1666E5D101B02DF00B0C7C1 /* CustomDownArrow.png */,
+				D1666E5E101B02DF00B0C7C1 /* LongOptionButton.png */,
+				D1666E5F101B02DF00B0C7C1 /* MinusButton.png */,
+				D1666E60101B02DF00B0C7C1 /* OptionsBg.png */,
+				D1666E61101B02DF00B0C7C1 /* PlusButton.png */,
+				D1666E62101B02DF00B0C7C1 /* ShortOptionButton.png */,
+				D1666E63101B02DF00B0C7C1 /* SmallFlap.png */,
+				D1666E64101B02DF00B0C7C1 /* CustomUpArrow.png */,
+				D1666E65101B02DF00B0C7C1 /* VerticalSeparator.png */,
+				D1666E66101B02DF00B0C7C1 /* VerticalSeparatorSelected.png */,
+				D1E41D330FFE3CA200CAEBEB /* Bookmarks.png */,
+				D1E41D340FFE3CA200CAEBEB /* BookmarksPressed.png */,
+				D1E41D350FFE3CA200CAEBEB /* Clear.png */,
+				D1E41D360FFE3CA200CAEBEB /* ClearPressed.png */,
+				D1E41D370FFE3CA200CAEBEB /* DeleteButton.png */,
+				D1E41D380FFE3CA200CAEBEB /* DeleteButtonDisabled.png */,
+				D1E41D390FFE3CA200CAEBEB /* DeleteButtonPressed.png */,
+				D1E41D3A0FFE3CA200CAEBEB /* FooterBg.png */,
+				D1E41D3B0FFE3CA200CAEBEB /* Header.png */,
+				D1E41D3C0FFE3CA200CAEBEB /* LocateMe.png */,
+				D1E41D3D0FFE3CA200CAEBEB /* LocateMePressed.png */,
+				D1E41D3E0FFE3CA200CAEBEB /* Notes.png */,
+				D1E41D400FFE3CA200CAEBEB /* Pin.png */,
+				D1E41D410FFE3CA200CAEBEB /* PinAir.png */,
+				D1E41D420FFE3CA200CAEBEB /* PinShadow.png */,
+				D1E41D430FFE3CA200CAEBEB /* RedButton.png */,
+				D1E41D440FFE3CA200CAEBEB /* RedButtonPressed.png */,
+				D1E41D470FFE3CA200CAEBEB /* WhiteButton.png */,
+				D1E41D480FFE3CA200CAEBEB /* WhiteButtonPressed.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D1E41D730FFE3CD500CAEBEB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D1E41D740FFE3CD500CAEBEB /* UIFactory.h */,
+				D1E41D750FFE3CD500CAEBEB /* UIFactory.m */,
+				D1778E791034023F00C90008 /* Geocoder.h */,
+				D1778E7A1034023F00C90008 /* Geocoder.m */,
+				D1FEF5E61036B27F00CD6EF4 /* NSDictionary+DeepObjectForKey.h */,
+				D1FEF5E71036B27F00CD6EF4 /* NSDictionary+DeepObjectForKey.m */,
+				D17BEA9D103C349F00B357E1 /* NSString+md5.h */,
+				D17BEA9E103C349F00B357E1 /* NSString+md5.m */,
+				D17BEB2C103D2CDE00B357E1 /* HTTPConnection.h */,
+				D17BEB2D103D2CDE00B357E1 /* HTTPConnection.m */,
+				D17BEB4E103D355E00B357E1 /* OrderManager.h */,
+				D17BEB4F103D355E00B357E1 /* OrderManager.m */,
+				D154257B10A5ADF000725BC8 /* CountryCodes.h */,
+				D154257C10A5ADF000725BC8 /* CountryCodes.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		D1E41D760FFE3CD500CAEBEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1E41D770FFE3CD500CAEBEB /* PickupLocation.h */,
+				D1E41D780FFE3CD500CAEBEB /* PickupLocation.m */,
+				D1E41D790FFE3CD500CAEBEB /* Order.h */,
+				D1E41D7A0FFE3CD500CAEBEB /* Order.m */,
+				D1E41D7B0FFE3CD500CAEBEB /* Bookmark.h */,
+				D1E41D7C0FFE3CD500CAEBEB /* Bookmark.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D1E41D7D0FFE3CD500CAEBEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1E41D7E0FFE3CD500CAEBEB /* YellowDraggablePin.h */,
+				D1E41D7F0FFE3CD500CAEBEB /* YellowDraggablePin.m */,
+				D1E41D800FFE3CD500CAEBEB /* PickupAddressCell.h */,
+				D1E41D810FFE3CD500CAEBEB /* PickupAddressCell.m */,
+				D1E41D820FFE3CD500CAEBEB /* BookmarkCell.h */,
+				D1E41D830FFE3CD500CAEBEB /* BookmarkCell.m */,
+				D1E41D840FFE3CD500CAEBEB /* BookmarkNameCell.h */,
+				D1E41D850FFE3CD500CAEBEB /* BookmarkNameCell.m */,
+				D162A1A3101C542E00C95B01 /* CustomSegmentedControl.h */,
+				D162A1A4101C542E00C95B01 /* CustomSegmentedControl.m */,
+				D162A212101C937F00C95B01 /* PickupTimeButton.h */,
+				D162A213101C937F00C95B01 /* PickupTimeButton.m */,
+				D1A82C371032B00E001FD4EB /* PinMaskView.h */,
+				D1A82C381032B00E001FD4EB /* PinMaskView.m */,
+				D199379F104BCA4500CA4989 /* CustomDatePicker.h */,
+				D19937A0104BCA4500CA4989 /* CustomDatePicker.m */,
+				D1A7A1F7104EDEE900942CDF /* ServiceByCell.h */,
+				D1A7A1F8104EDEE900942CDF /* ServiceByCell.m */,
+				D17413D210527AE8006A8822 /* CustomAlertView.h */,
+				D17413D310527AE8006A8822 /* CustomAlertView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D1E41D860FFE3CD500CAEBEB /* Main View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1E41D870FFE3CD500CAEBEB /* MainViewController.h */,
+				D1E41D880FFE3CD500CAEBEB /* MainViewController.m */,
+				D1E41D890FFE3CD500CAEBEB /* MainViewController+Timers.h */,
+				D1E41D8A0FFE3CD500CAEBEB /* MainViewController+Timers.m */,
+				D1E41D8B0FFE3CD500CAEBEB /* MainViewController+Actions.h */,
+				D1E41D8C0FFE3CD500CAEBEB /* MainViewController+Actions.m */,
+				D1E41D8D0FFE3CD500CAEBEB /* MainViewController+Observing.h */,
+				D1E41D8E0FFE3CD500CAEBEB /* MainViewController+Observing.m */,
+				D1AEF04510FA1E9B00E9AC3C /* CLLocationManager+Hack.h */,
+				D1AEF04610FA1E9B00E9AC3C /* CLLocationManager+Hack.m */,
+			);
+			name = "Main View Controller";
+			sourceTree = "<group>";
+		};
+		D1E41D8F0FFE3CD500CAEBEB /* Notes View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1E41D900FFE3CD500CAEBEB /* NotesViewController.h */,
+				D1E41D910FFE3CD500CAEBEB /* NotesViewController.m */,
+			);
+			name = "Notes View Controller";
+			sourceTree = "<group>";
+		};
+		D1E41D920FFE3CD500CAEBEB /* Order View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1E41D930FFE3CD500CAEBEB /* OrderViewController.h */,
+				D1E41D940FFE3CD500CAEBEB /* OrderViewController.m */,
+			);
+			name = "Order View Controller";
+			sourceTree = "<group>";
+		};
+		D1E41D950FFE3CD500CAEBEB /* Add Bookmark View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1E41D960FFE3CD500CAEBEB /* AddBookmarkViewController.h */,
+				D1E41D970FFE3CD500CAEBEB /* AddBookmarkViewController.m */,
+			);
+			name = "Add Bookmark View Controller";
+			sourceTree = "<group>";
+		};
+		D1E41D980FFE3CD500CAEBEB /* Bookmarks View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1E41D990FFE3CD500CAEBEB /* BookmarksViewController.h */,
+				D1E41D9A0FFE3CD500CAEBEB /* BookmarksViewController.m */,
+			);
+			name = "Bookmarks View Controller";
+			sourceTree = "<group>";
+		};
+		D1E41D9B0FFE3CD500CAEBEB /* Edit Bookmark Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1E41D9C0FFE3CD500CAEBEB /* EditBookmarkController.h */,
+				D1E41D9D0FFE3CD500CAEBEB /* EditBookmarkController.m */,
+			);
+			name = "Edit Bookmark Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TaxiNow! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TaxiNow!" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TaxiNow!";
+			productName = "TaxiNow!";
+			productReference = 1D6058910D05DD3D006BFB54 /* TaxiNow!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TaxiNow!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				de,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TaxiNow! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E41D490FFE3CA200CAEBEB /* Bookmarks.png in Resources */,
+				D1E41D4A0FFE3CA200CAEBEB /* BookmarksPressed.png in Resources */,
+				D1E41D4B0FFE3CA200CAEBEB /* Clear.png in Resources */,
+				D1E41D4C0FFE3CA200CAEBEB /* ClearPressed.png in Resources */,
+				D1E41D4D0FFE3CA200CAEBEB /* DeleteButton.png in Resources */,
+				D1E41D4E0FFE3CA200CAEBEB /* DeleteButtonDisabled.png in Resources */,
+				D1E41D4F0FFE3CA200CAEBEB /* DeleteButtonPressed.png in Resources */,
+				D1E41D500FFE3CA200CAEBEB /* FooterBg.png in Resources */,
+				D1E41D510FFE3CA200CAEBEB /* Header.png in Resources */,
+				D1E41D520FFE3CA200CAEBEB /* LocateMe.png in Resources */,
+				D1E41D530FFE3CA200CAEBEB /* LocateMePressed.png in Resources */,
+				D1E41D540FFE3CA200CAEBEB /* Notes.png in Resources */,
+				D1E41D560FFE3CA200CAEBEB /* Pin.png in Resources */,
+				D1E41D570FFE3CA200CAEBEB /* PinAir.png in Resources */,
+				D1E41D580FFE3CA200CAEBEB /* PinShadow.png in Resources */,
+				D1E41D590FFE3CA200CAEBEB /* RedButton.png in Resources */,
+				D1E41D5A0FFE3CA200CAEBEB /* RedButtonPressed.png in Resources */,
+				D1E41D5D0FFE3CA200CAEBEB /* WhiteButton.png in Resources */,
+				D1E41D5E0FFE3CA200CAEBEB /* WhiteButtonPressed.png in Resources */,
+				D1E41D720FFE3CBB00CAEBEB /* Defaults.plist in Resources */,
+				D1E41DBC0FFE3E5300CAEBEB /* Entitlements.plist in Resources */,
+				D1983B071004A90D00FCEBEE /* AddBookmarkViewController.xib in Resources */,
+				D1983B081004A90D00FCEBEE /* BookmarkNameCell.xib in Resources */,
+				D1983B091004A90D00FCEBEE /* BookmarksController.xib in Resources */,
+				D1983B0A1004A90D00FCEBEE /* CancelOrderCell.xib in Resources */,
+				D1983B0B1004A90D00FCEBEE /* EditBookmarkController.xib in Resources */,
+				D1983B0C1004A90D00FCEBEE /* MainWindow.xib in Resources */,
+				D1983B0D1004A90D00FCEBEE /* NotesViewController.xib in Resources */,
+				D1983B0E1004A90D00FCEBEE /* OrderViewController.xib in Resources */,
+				D1983B0F1004A90D00FCEBEE /* PickupAddressCell.xib in Resources */,
+				D1666E67101B02DF00B0C7C1 /* ButtonSegmentLeft.png in Resources */,
+				D1666E68101B02DF00B0C7C1 /* ButtonSegmentLeftSelected.png in Resources */,
+				D1666E69101B02DF00B0C7C1 /* ButtonSegmentMiddle.png in Resources */,
+				D1666E6A101B02DF00B0C7C1 /* ButtonSegmentMiddleSelected.png in Resources */,
+				D1666E6B101B02DF00B0C7C1 /* ButtonSegmentRight.png in Resources */,
+				D1666E6C101B02DF00B0C7C1 /* ButtonSegmentRightSelected.png in Resources */,
+				D1666E6D101B02DF00B0C7C1 /* CustomDownArrow.png in Resources */,
+				D1666E6E101B02DF00B0C7C1 /* LongOptionButton.png in Resources */,
+				D1666E6F101B02DF00B0C7C1 /* MinusButton.png in Resources */,
+				D1666E70101B02DF00B0C7C1 /* OptionsBg.png in Resources */,
+				D1666E71101B02DF00B0C7C1 /* PlusButton.png in Resources */,
+				D1666E72101B02DF00B0C7C1 /* ShortOptionButton.png in Resources */,
+				D1666E73101B02DF00B0C7C1 /* SmallFlap.png in Resources */,
+				D1666E74101B02DF00B0C7C1 /* CustomUpArrow.png in Resources */,
+				D1666E75101B02DF00B0C7C1 /* VerticalSeparator.png in Resources */,
+				D1666E76101B02DF00B0C7C1 /* VerticalSeparatorSelected.png in Resources */,
+				D162A258101C9A4700C95B01 /* BackNavigationController.xib in Resources */,
+				D18522AF1031968B00E4FA1A /* Icon.png in Resources */,
+				D1D302C41031B2430083FC2C /* Default.png in Resources */,
+				D1A7A1E6104ED3B900942CDF /* 1.caf in Resources */,
+				D19E7BA9106008CC00A493CA /* DatePicker.xib in Resources */,
+				D19E7C0210600E2D00A493CA /* OptionControls.xib in Resources */,
+				D1F5002810623F2600D3975A /* NotesDoneButton.png in Resources */,
+				D1F5002910623F2600D3975A /* NotesNormalButton.png in Resources */,
+				D1AF8446108A2F0100F641C1 /* SettingsViewController.xib in Resources */,
+				D170D04010A458CD00B03B03 /* NanoAppsLogo.png in Resources */,
+				D170D04710A45B2C00B03B03 /* LegalViewController.xib in Resources */,
+				D170D05310A45B4200B03B03 /* NanoAppsLogoBlack.png in Resources */,
+				D154257910A5AD9C00725BC8 /* CountryCodes.plist in Resources */,
+				D15425D210A5B8CC00725BC8 /* CountrySelectionViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				D1E41DA00FFE3CD500CAEBEB /* UIFactory.m in Sources */,
+				D1E41DA10FFE3CD500CAEBEB /* PickupLocation.m in Sources */,
+				D1E41DA20FFE3CD500CAEBEB /* Order.m in Sources */,
+				D1E41DA30FFE3CD500CAEBEB /* Bookmark.m in Sources */,
+				D1E41DA40FFE3CD500CAEBEB /* YellowDraggablePin.m in Sources */,
+				D1E41DA50FFE3CD500CAEBEB /* PickupAddressCell.m in Sources */,
+				D1E41DA60FFE3CD500CAEBEB /* BookmarkCell.m in Sources */,
+				D1E41DA70FFE3CD500CAEBEB /* BookmarkNameCell.m in Sources */,
+				D1E41DA80FFE3CD500CAEBEB /* MainViewController.m in Sources */,
+				D1E41DA90FFE3CD500CAEBEB /* MainViewController+Timers.m in Sources */,
+				D1E41DAA0FFE3CD500CAEBEB /* MainViewController+Actions.m in Sources */,
+				D1E41DAB0FFE3CD500CAEBEB /* MainViewController+Observing.m in Sources */,
+				D1E41DAC0FFE3CD500CAEBEB /* NotesViewController.m in Sources */,
+				D1E41DAD0FFE3CD500CAEBEB /* OrderViewController.m in Sources */,
+				D1E41DAE0FFE3CD500CAEBEB /* AddBookmarkViewController.m in Sources */,
+				D1E41DAF0FFE3CD500CAEBEB /* BookmarksViewController.m in Sources */,
+				D1E41DB00FFE3CD500CAEBEB /* EditBookmarkController.m in Sources */,
+				D1E41DB10FFE3CD500CAEBEB /* TaxiNow_AppDelegate.m in Sources */,
+				D162A1A5101C542E00C95B01 /* CustomSegmentedControl.m in Sources */,
+				D162A214101C937F00C95B01 /* PickupTimeButton.m in Sources */,
+				D162A26D101C9A6200C95B01 /* BackViewController.m in Sources */,
+				D1A82C391032B00E001FD4EB /* PinMaskView.m in Sources */,
+				D1B274E81034010500A04A07 /* NSObject+SBJSON.m in Sources */,
+				D1B274E91034010500A04A07 /* NSString+SBJSON.m in Sources */,
+				D1B274EA1034010500A04A07 /* SBJSON.m in Sources */,
+				D1B274EB1034010500A04A07 /* SBJsonBase.m in Sources */,
+				D1B274EC1034010500A04A07 /* SBJsonParser.m in Sources */,
+				D1B274ED1034010500A04A07 /* SBJsonWriter.m in Sources */,
+				D1778E7B1034023F00C90008 /* Geocoder.m in Sources */,
+				D1FEF5E81036B27F00CD6EF4 /* NSDictionary+DeepObjectForKey.m in Sources */,
+				D17BEA9F103C349F00B357E1 /* NSString+md5.m in Sources */,
+				D17BEB2E103D2CDE00B357E1 /* HTTPConnection.m in Sources */,
+				D17BEB50103D355E00B357E1 /* OrderManager.m in Sources */,
+				D19937A1104BCA4500CA4989 /* CustomDatePicker.m in Sources */,
+				D1A7A1F9104EDEE900942CDF /* ServiceByCell.m in Sources */,
+				D17413D410527AE8006A8822 /* CustomAlertView.m in Sources */,
+				D1AF8421108A237200F641C1 /* BackNavigationController.m in Sources */,
+				D1AF8442108A2EDA00F641C1 /* SettingsViewController.m in Sources */,
+				D170D06310A45FB400B03B03 /* LegalViewController.m in Sources */,
+				D1925D1410A46FDC008F0EF5 /* TextInputCell.m in Sources */,
+				D139823310A580B200216317 /* PhoneNumberView.m in Sources */,
+				D154257D10A5ADF000725BC8 /* CountryCodes.m in Sources */,
+				D15425CE10A5B84600725BC8 /* CountrySelectionViewController.m in Sources */,
+				D154263010A5BDB300725BC8 /* StyledTableViewController.m in Sources */,
+				D1AEF04710FA1E9B00E9AC3C /* CLLocationManager+Hack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D154257710A5AD9C00725BC8 /* CountryCodes.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D154257810A5AD9C00725BC8 /* en */,
+			);
+			name = CountryCodes.plist;
+			sourceTree = "<group>";
+		};
+		D15425D010A5B8CC00725BC8 /* CountrySelectionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D15425D110A5B8CC00725BC8 /* en */,
+			);
+			name = CountrySelectionViewController.xib;
+			sourceTree = "<group>";
+		};
+		D162A256101C9A4700C95B01 /* BackNavigationController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D162A257101C9A4700C95B01 /* en */,
+			);
+			name = BackNavigationController.xib;
+			sourceTree = "<group>";
+		};
+		D170D04510A45B2C00B03B03 /* LegalViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D170D04610A45B2C00B03B03 /* en */,
+			);
+			name = LegalViewController.xib;
+			sourceTree = "<group>";
+		};
+		D1983AF51004A90D00FCEBEE /* AddBookmarkViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1983AF61004A90D00FCEBEE /* en */,
+			);
+			name = AddBookmarkViewController.xib;
+			sourceTree = "<group>";
+		};
+		D1983AF71004A90D00FCEBEE /* BookmarkNameCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1983AF81004A90D00FCEBEE /* en */,
+			);
+			name = BookmarkNameCell.xib;
+			sourceTree = "<group>";
+		};
+		D1983AF91004A90D00FCEBEE /* BookmarksController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1983AFA1004A90D00FCEBEE /* en */,
+			);
+			name = BookmarksController.xib;
+			sourceTree = "<group>";
+		};
+		D1983AFB1004A90D00FCEBEE /* CancelOrderCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1983AFC1004A90D00FCEBEE /* en */,
+			);
+			name = CancelOrderCell.xib;
+			sourceTree = "<group>";
+		};
+		D1983AFD1004A90D00FCEBEE /* EditBookmarkController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1983AFE1004A90D00FCEBEE /* en */,
+			);
+			name = EditBookmarkController.xib;
+			sourceTree = "<group>";
+		};
+		D1983AFF1004A90D00FCEBEE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1983B001004A90D00FCEBEE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D1983B011004A90D00FCEBEE /* NotesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1983B021004A90D00FCEBEE /* en */,
+			);
+			name = NotesViewController.xib;
+			sourceTree = "<group>";
+		};
+		D1983B031004A90D00FCEBEE /* OrderViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1983B041004A90D00FCEBEE /* en */,
+			);
+			name = OrderViewController.xib;
+			sourceTree = "<group>";
+		};
+		D1983B051004A90D00FCEBEE /* PickupAddressCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1983B061004A90D00FCEBEE /* en */,
+			);
+			name = PickupAddressCell.xib;
+			sourceTree = "<group>";
+		};
+		D19E7BA7106008CC00A493CA /* DatePicker.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D19E7BA8106008CC00A493CA /* en */,
+			);
+			name = DatePicker.xib;
+			sourceTree = "<group>";
+		};
+		D19E7C0010600E2D00A493CA /* OptionControls.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D19E7C0110600E2D00A493CA /* en */,
+			);
+			name = OptionControls.xib;
+			sourceTree = "<group>";
+		};
+		D1AF8444108A2F0100F641C1 /* SettingsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1AF8445108A2F0100F641C1 /* en */,
+			);
+			name = SettingsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TaxiNow__Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "TaxiNow_-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/libisimulate-3\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "TaxiNow!";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TaxiNow__Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "TaxiNow_-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/libisimulate-3\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "TaxiNow!";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matteo Cortonesi (92995PJH2C)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Matteo Cortonesi (92995PJH2C)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D1E41DBD0FFE3E7900CAEBEB /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Foreway Studios GmbH";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Foreway Studios GmbH";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PROVISIONING_PROFILE = "8D7E5D5C-B22E-4123-A7FE-B7557883E978";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8D7E5D5C-B22E-4123-A7FE-B7557883E978";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		D1E41DBE0FFE3E7900CAEBEB /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TaxiNow__Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "TaxiNow_-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/libisimulate-3\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "TaxiNow!";
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TaxiNow!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				D1E41DBE0FFE3E7900CAEBEB /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TaxiNow!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				D1E41DBD0FFE3E7900CAEBEB /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
